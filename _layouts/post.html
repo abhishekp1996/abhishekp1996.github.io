@@ -8,7 +8,7 @@ layout: default
 		<h1>{{ page.title | escape }}</h1>
 		
 		{% assign date_format = "%b %-d, %Y" %}
-		<p class="date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: date_format }}</time></p>
+		<p class="date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time></p>
 	
   </div>
 
