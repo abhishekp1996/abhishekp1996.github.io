@@ -53,9 +53,15 @@ a {
 			height: auto;
 			border-radius: 50%;
 		}
-		.me #name {
+		.me #name{
 			font: 700 2.2em/1.6 "PT Serif";
 			color: #ddd;
+		}
+		.me #name a{
+			transition: color .2s;
+		}
+		.me #name a:hover {
+			color: #e74c3c;
 		}
 		.me #about {
 			font: 300 1.5em/1.2 "Source Sans Pro";
@@ -63,11 +69,14 @@ a {
 		}
 	
 	.social {
-		margin-top: .2em;
+		margin-top: 2em;
+		color: #c7c7c7;
 	}
 		.social p {
 			font: 300 1.7em/1.2 "Source Sans Pro";
-			color: #c7c7c7;
+		}
+		.social #twitterLink {
+			font: 300 1.7em/1.2 "Source Sans Pro";			
 		}
 	
 	.menu {
@@ -79,7 +88,7 @@ a {
 			width: 40%;
 		}
 			.menu ul li {
-				font: 300 1.8em/1.4 "Source Sans Pro";
+				font: 300 1.8em/1.8 "Source Sans Pro";
 				color: #ddd;
 				border-bottom: 1px solid #555;
 				transition: all .25s;
@@ -131,11 +140,21 @@ a {
 
 /* Post Styling */
 .postContainer {
+	position: relative;
 	width: 100%;
 	height: auto;
 	margin: 1em 0;
 	padding: 5em 4em;
 	background: #fbfbfb;
+}
+.postContainer:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(to right, #3498db 25%,#f1c40f 25%, #f1c40f 50%, #2ecc71 50%, #2ecc71 75%, #e74c3c 75%);
 }
 	.postMeta {
 		width: 100%;
@@ -155,16 +174,34 @@ a {
 		margin-top: 4em;
 		width: 80%;
 	}
-	.postContent p{
+	.postContent p {
 		font: 400 1.8em/1.5 "PT serif";
 		color: #333;
-		margin: 1em 0;
+		margin: 1.25em 0;
 	}
-	.postContent img{
+	.postContent img {
 		width: 100%;
 		height: auto;
 		margin: 1em 0;
 	}
+	.postContent a {
+		color: #e74c3c;
+	}
+	.postContent ul {
+		font-size: 1.8rem;
+	}
+		.postContent ul li{
+			font-size: 1em;
+		}
+		
+	.postContent blockquote {
+		width: 100%;
+		margin: 1em 0;
+		padding: 1em 2em;
+		background: #e9f5fb;
+		border-left: 5px solid #3498db;
+	}
+	
 	
 
 /*********************/

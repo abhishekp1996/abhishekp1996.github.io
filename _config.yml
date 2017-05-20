@@ -31,3 +31,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+github: [metadata]
+
+#Global Settings
+permalink: /:year/:title.html
