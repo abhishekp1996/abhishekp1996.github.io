@@ -1,0 +1,5 @@
+I remember the day when I first made a switch to HTML while I was on the edge to dive into Android development. I remember, seeing XML marked important in the list of pre-requisites and I went straight to the first google result, at w3schools. And I remember I clicked on the HTML link in the sidebar, to skim over the contents that I had last learnt back in my 8th standard.
+
+While I am glancing at my past, I can't forget those days, when I first built my webpage in HTML. Though my father helped me to finally save and run it in browser, but when it did, it was like magic. I just built what I thought was stuff not from this world. But those were old school days, a simple hyperlink and some boring text wrapped in `p` tags.
+
+You won't see any major difference now and then, apart from design, but in between I have changed a lot. Back then I was just trying out things, but today, I am something different.

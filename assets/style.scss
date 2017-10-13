@@ -208,9 +208,14 @@ a {
 	}
 	.postContent ul {
 		font-size: 1.8rem;
+		padding-left: 20px;
 	}
 		.postContent ul li{
 			font-size: 1em;
+			font-family: 'PT serif';
+		}
+		.postContent ul li p {
+			padding-left: 20px;
 		}
 		
 	.postContent blockquote {
