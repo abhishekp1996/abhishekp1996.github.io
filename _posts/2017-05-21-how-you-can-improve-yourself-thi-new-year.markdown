@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How you can improve yourself this new year"
-date: 2017-12-31 00:00:00 +0530
+date: 2017-12-30 00:00:00 +0530
 ---
 A year changes a lot. I find this fact honest but not practical.
 
