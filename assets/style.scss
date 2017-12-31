@@ -144,9 +144,10 @@ a {
  .postBlock:nth-of-type(even) {
  	background: #e7e7e7;
  }
-	.postBlock h2 {
-		font: 700 2.8em/1.2 "PT Serif";
-		color: #555;
+	.postContent h2 {
+		font: 700 2.2em/1 "PT Serif";
+		color: #333;
+		padding-top: 35px;
 	}
 	.postBlock p {
 		font: 400 1.6em/1.4 "PT Serif";
