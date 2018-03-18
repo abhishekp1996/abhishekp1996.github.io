@@ -572,3 +572,15 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+@keyframes blinking {
+	0%,49% {
+		opacity: 1;
+	}
+	50%,99% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
